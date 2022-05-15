@@ -11,6 +11,7 @@ def process(path_file, instance):
     }
     instance.enqueue(dict_process)
     print(dict_process, file=sys.stdout)
+    return dict_process
 
 
 def remove(instance):
